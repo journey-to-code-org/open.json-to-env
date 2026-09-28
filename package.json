@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-json-to-env",
+  "version": "1.0.0",
+  "description": "Flattens JavaScript objects into .env-compatible key-value strings.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.json-to-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.json-to-env/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.json-to-env#readme",
+  "keywords": [
+    "env",
+    "json",
+    "configuration",
+    "dotenv"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
